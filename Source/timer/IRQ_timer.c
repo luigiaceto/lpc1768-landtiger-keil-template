@@ -4,8 +4,12 @@
 #include "sample.h"
 #include "RIT/RIT.h"
 
-/* PER CAMBIARE FREQUENZA TIMER ANDARE SU system_LPC17xx.c SU PERIPHERAL CLOCK SELECTION
- REGISTER CONSIDERANDO CHE LA FREQUENZA D'ENTRATA AL DIVISORE E' DI 100Mhz */
+
+/* 
+	 To change the frequency of any of these 4 timers you must head to system_LPC17xx.c
+	 on Peripheral Clock Selection Register. Note that the standard input frequency of the 
+	 divider is 100MHz.
+*/
 
 void TIMER0_IRQHandler(void) {
 	

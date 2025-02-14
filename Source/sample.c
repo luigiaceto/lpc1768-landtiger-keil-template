@@ -12,7 +12,7 @@
 extern uint8_t ScaleFlag; // <- ScaleFlag needs to visible in order for the emulator to find the symbol (can be placed also inside system_LPC17xx.h but since it is RO, it needs more work)
 #endif
 
-/* STO USANDO OTTIMIZZAZIONE -O1*/
+/* USING -O1 OPTIMIZATION */
 int main (void) {
   	
 	SystemInit();  												/* System Initialization (i.e., PLL)  */
@@ -20,9 +20,8 @@ int main (void) {
   BUTTON_init();												/* BUTTON Initialization              */
 	joystick_init();											/* Joystick Initialization            */
 	//ADC_init();
-	init_RIT(0x004C4B40);									/* RIT Initialization 50 msec (RIT lavora a 100Mhz) */
-	enable_RIT();													/* RIT enabled												*/
-	//init_timer(2, 500000);							  /* c = t*f = 1/100 * 50MHz  					*/
+	init_RIT(0x004C4B40);									/* RIT Initialization 50 msec (RIT works at 100Mhz) */
+	enable_RIT();													/* RIT enabled												*/							
 	
 	
 	

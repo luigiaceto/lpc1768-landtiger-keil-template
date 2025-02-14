@@ -1,1 +1,1 @@
-#define LENGHT_VECT 5
+// you can put here some DEFINE(s)

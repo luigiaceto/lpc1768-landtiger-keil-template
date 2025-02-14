@@ -5,7 +5,6 @@
 #include "sample.h"
 #include "../adc/adc.h"
 
-// operatori logici bitwise: &and |or ^xor ~not 
 
 volatile int int0_pressed=0;
 volatile int key1_pressed=0;
