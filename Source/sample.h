@@ -1,0 +1,1 @@
+#define LENGHT_VECT 5
