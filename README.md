@@ -1,4 +1,4 @@
-# LandTIger LPC1768 board on Keil
+# LandTiger LPC1768 board on Keil
 
 <p align="center">
     <img src="Images/board_pic.png" alt="" width="300">
